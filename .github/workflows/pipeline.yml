@@ -15,7 +15,7 @@ jobs:
           cd module-b
           mvn clean install
       - run: |
-          cd model-a
+          cd modele-a
           mvn clean install
       - run: mvn checkstyle:check
 
