@@ -30,7 +30,7 @@ jobs:
       - run: mvn package
       - uses: actions/upload-artifact@v4
         with:
-          name: my-app-jar
+          name: app
           path: target/*.jar
 
   deploy:
